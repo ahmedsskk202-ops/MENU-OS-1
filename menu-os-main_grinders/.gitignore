@@ -1,0 +1,21 @@
+node_modules/
+.next/
+dist/
+build/
+*.tsbuildinfo
+# Local SQLite databases (see packages/db/.env)
+*.db
+*.db-journal
+.env
+.env.local
+.env.*.local
+packages/db/.env
+apps/web/.env.local
+.DS_Store
+npm-debug.log*
+
+# dev-only fingerprint of the generated Prisma client (see apps/web/server.js)
+apps/web/.prisma-client-stamp
+
+# Activated Menu OS license + last signed receipt (per installation, never committed)
+apps/web/.license/

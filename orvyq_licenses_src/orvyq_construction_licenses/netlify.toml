@@ -1,0 +1,12 @@
+[build]
+  command = "echo 'Construction OS License - static frontend + Netlify Functions. No build step required.'"
+  publish = "public"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1,0 +1,42 @@
+import type { VoteContentItem } from "../types";
+
+// Party/social "who's most likely to..." prompts for the standalone Voting & Social
+// game. Deliberately restaurant/cafe-table-friendly — nothing that requires knowing
+// someone outside the group or reveals private information.
+export const VOTE_PROMPTS: VoteContentItem[] = [
+  { id: "en-vot-001", prompt: "Who is most likely to be late to their own wedding?" },
+  { id: "en-vot-002", prompt: "Who would survive the longest on a deserted island?" },
+  { id: "en-vot-003", prompt: "Who is most likely to become famous one day?" },
+  { id: "en-vot-004", prompt: "Who takes the longest to order food at a restaurant?" },
+  { id: "en-vot-005", prompt: "Who is the most likely to win a cooking competition?" },
+  { id: "en-vot-006", prompt: "Who would make the best travel companion?" },
+  { id: "en-vot-007", prompt: "Who is most likely to fall asleep first at a sleepover?" },
+  { id: "en-vot-008", prompt: "Who would be the best tour guide for this city?" },
+  { id: "en-vot-009", prompt: "Who is most likely to win an argument?" },
+  { id: "en-vot-010", prompt: "Who is the most likely to forget their own phone at home?" },
+  { id: "en-vot-011", prompt: "Who would make the best restaurant critic?" },
+  { id: "en-vot-012", prompt: "Who is most likely to try the spiciest dish on the menu?" },
+  { id: "en-vot-013", prompt: "Who is the best at telling jokes at this table?" },
+  { id: "en-vot-014", prompt: "Who would win in a dance-off?" },
+  { id: "en-vot-015", prompt: "Who is most likely to become a millionaire first?" },
+  { id: "en-vot-016", prompt: "Who would be the best person to have on your trivia team?" },
+  { id: "en-vot-017", prompt: "Who is most likely to talk their way out of a parking ticket?" },
+  { id: "en-vot-018", prompt: "Who would be the calmest in a real emergency?" },
+  { id: "en-vot-019", prompt: "Who is most likely to binge-watch an entire show in one night?" },
+  { id: "en-vot-020", prompt: "Who would make the best startup founder?" },
+  { id: "en-vot-021", prompt: "Who is the most likely to remember everyone's birthday?" },
+  { id: "en-vot-022", prompt: "Who would win a staring contest at this table?" },
+  { id: "en-vot-023", prompt: "Who is most likely to try a new food trend first?" },
+  { id: "en-vot-024", prompt: "Who would be the best at giving directions without a map?" },
+  { id: "en-vot-025", prompt: "Who is the most likely to become a chef?" },
+  { id: "en-vot-026", prompt: "Who would win a karaoke competition?" },
+  { id: "en-vot-027", prompt: "Who is most likely to plan the perfect surprise party?" },
+  { id: "en-vot-028", prompt: "Who would be the last one standing in a debate?" },
+  { id: "en-vot-029", prompt: "Who is most likely to always order dessert?" },
+  { id: "en-vot-030", prompt: "Who would be the group's designated photographer?" },
+  { id: "en-vot-031", prompt: "Who is the most competitive at this table?" },
+  { id: "en-vot-032", prompt: "Who would be the best at negotiating a discount?" },
+  { id: "en-vot-033", prompt: "Who is most likely to still be talking about this dinner next week?" },
+  { id: "en-vot-034", prompt: "Who would win if this table had a cooking show?" },
+  { id: "en-vot-035", prompt: "Who is the most likely to know a random fun fact right now?" },
+];

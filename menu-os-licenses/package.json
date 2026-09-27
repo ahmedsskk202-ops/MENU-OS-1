@@ -1,0 +1,17 @@
+{
+  "name": "menu-os-license",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Menu OS License - license generation, verification and revocation panel (Netlify)",
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  },
+  "scripts": {
+    "smoke": "node scripts/smoke-test.js",
+    "test": "node scripts/e2e-test.js",
+    "test:all": "node scripts/smoke-test.js && node scripts/e2e-test.js"
+  },
+  "devDependencies": {
+    "netlify-cli": "^27.8.0"
+  }
+}

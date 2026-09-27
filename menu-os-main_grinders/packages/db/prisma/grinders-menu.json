@@ -1,0 +1,2052 @@
+{
+  "_source": "https://grindersiq.iraqsapp.com/view/tabs/products",
+  "_fetchedAt": "2026-09-26T15:44:58.924Z",
+  "_note": "Authoritative snapshot of the live Grinders Coffee House menu. Prices are IQD. prices.s/m/l are Small/Medium/Large; 0 means that size is not offered.",
+  "brand": {
+    "nameAr": "جرايندرز",
+    "nameEn": "The Grinders",
+    "taglineAr": "قهوة مختصة",
+    "currency": "IQD"
+  },
+  "categories": [
+    {
+      "remoteId": "6a21f013af8523433a2e9dc4",
+      "nameAr": "مجموعة الخريف",
+      "nameEn": "Autumn Collection",
+      "image": "https://grindersiq.iraqsapp.com/1790320885198_1be3531f-fbc8-42ca-b1bb-6d2215737826.png",
+      "sort": 0,
+      "products": [
+        {
+          "remoteId": "6ab6191975678ee1663e9c8f",
+          "nameAr": "ماتشا مع كريمة اليقطين الباردة",
+          "nameEn": "Pumpkin Matcha Cold Foam",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1790318872945_3537bbfa-4e48-4404-b2f1-0d2a4d4853c7.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7000
+          },
+          "sort": 0
+        },
+        {
+          "remoteId": "6ab618de75678ee1663e9c75",
+          "nameAr": "لاتيه بتوابل اليقطين مثلج",
+          "nameEn": "Iced Pumpkin Spice Latte",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1790318814166_e6a4441a-134f-4785-9fd7-9d6c3b1f67c2.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7000
+          },
+          "sort": 1
+        },
+        {
+          "remoteId": "6ab6186b75678ee1663e9c1f",
+          "nameAr": "ماتشا مع كريمة اليقطين الباردة",
+          "nameEn": "Pumpkin Matcha Cold Foam",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1790318698987_5fce10e2-def4-4c33-a0f5-dfa74af7ad9b.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7000
+          },
+          "sort": 3
+        },
+        {
+          "remoteId": "6ab618a575678ee1663e9c45",
+          "nameAr": "لاتيه الكراميل المملح مثلج",
+          "nameEn": "Iced Salted Caramel Latte",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1790318757140_3cc79485-e0b0-4a59-9258-2a866ec935d7.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7000
+          },
+          "sort": 3
+        },
+        {
+          "remoteId": "6ab6182d75678ee1663e9bf8",
+          "nameAr": "لاتيه بتوابل اليقطين",
+          "nameEn": "Pumpkin Spice Latte",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1790318636971_0415ebb8-8065-4163-b16e-81ff289f5f15.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7000
+          },
+          "sort": 4
+        },
+        {
+          "remoteId": "6ab617d875678ee1663e9bcb",
+          "nameAr": "لاتيه الكراميل المملح",
+          "nameEn": "Salted Caramel Latte",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1790318552502_79e03493-dd78-44a1-a88f-2265bbd366f3.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7000
+          },
+          "sort": 5
+        },
+        {
+          "remoteId": "6ab615b675678ee1663e9a93",
+          "nameAr": "جيزكيك بالبيكان والكراميل",
+          "nameEn": "Pecan Caramel Cheesecake",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1790318006879_06e0cb49-67bf-4528-9893-b4235e847254.png",
+          "prices": {
+            "s": 0,
+            "m": 5000,
+            "l": 0
+          },
+          "sort": 6
+        },
+        {
+          "remoteId": "6ab6165875678ee1663e9b31",
+          "nameAr": "سوبريم ببذور اليقطين",
+          "nameEn": "Pumpkin Supreme",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1790318168606_9e8b4169-e240-43d2-963b-c126d63ece4f.png",
+          "prices": {
+            "s": 0,
+            "m": 4000,
+            "l": 0
+          },
+          "sort": 7
+        },
+        {
+          "remoteId": "6ab6169275678ee1663e9b6a",
+          "nameAr": "كيك بوب اليقطين",
+          "nameEn": "Pumpkin Cake Pop",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1790318226215_e0609cb8-07ee-4df4-84c9-f3139f7d3630.png",
+          "prices": {
+            "s": 0,
+            "m": 2000,
+            "l": 0
+          },
+          "sort": 8
+        },
+        {
+          "remoteId": "6ab616d675678ee1663e9b96",
+          "nameAr": "مافن بالكراميل المملح",
+          "nameEn": "Salted Caramel Muffin",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1790318294500_d700938d-c4e2-45b9-809c-618a3c113c07.png",
+          "prices": {
+            "s": 0,
+            "m": 3000,
+            "l": 0
+          },
+          "sort": 9
+        }
+      ]
+    },
+    {
+      "remoteId": "64d8f342d63073130a97c83a",
+      "nameAr": "مشروبات ساخنة",
+      "nameEn": "Hot Drinks",
+      "image": "https://grindersiq.iraqsapp.com/1769077202533_fe07fee4-aaa0-4d3e-ac2c-9a46358ce996.png",
+      "sort": 1,
+      "products": [
+        {
+          "remoteId": "64da060a7dc700a53aebf780",
+          "nameAr": "سنجل اسبريسو",
+          "nameEn": "Single Espresso",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1767910606448_eed757aa-6c34-42c9-8a2e-43193555dae9.png",
+          "prices": {
+            "s": 3000,
+            "m": 0,
+            "l": 0
+          },
+          "sort": 5001
+        },
+        {
+          "remoteId": "64db38dd7dc700a53aebf7fe",
+          "nameAr": "دبل اسبريسو",
+          "nameEn": "double espresso",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1767910566925_7e462b89-ee87-45a8-b2d8-fbad78bb0bb6.png",
+          "prices": {
+            "s": 4000,
+            "m": 0,
+            "l": 0
+          },
+          "sort": 5002
+        },
+        {
+          "remoteId": "64db42c17dc700a53aebf947",
+          "nameAr": "ريستريتو",
+          "nameEn": "Ristretto",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1767910671205_3fc4d66c-e5bd-40b8-83c0-1990330ff6df.png",
+          "prices": {
+            "s": 4000,
+            "m": 0,
+            "l": 0
+          },
+          "sort": 5003
+        },
+        {
+          "remoteId": "64db45207dc700a53aebf993",
+          "nameAr": "امريكانو",
+          "nameEn": "Americano",
+          "descAr": "اسبريسو , ماء ساخن",
+          "descEn": "espresso , hot water",
+          "image": "https://grindersiq.iraqsapp.com/1767910764747_13c7841f-db2d-43b0-9d78-2c6d4c85dca6.png",
+          "prices": {
+            "s": 4000,
+            "m": 5000,
+            "l": 6000
+          },
+          "sort": 5007
+        },
+        {
+          "remoteId": "64db45627dc700a53aebf999",
+          "nameAr": "لاتيه",
+          "nameEn": "Latte",
+          "descAr": "اسبريسو, حليب",
+          "descEn": "espresso, milk",
+          "image": "https://grindersiq.iraqsapp.com/1767910834149_2017a120-21e1-4e51-905b-99b42c934d74.png",
+          "prices": {
+            "s": 4500,
+            "m": 5000,
+            "l": 6000
+          },
+          "sort": 5008
+        },
+        {
+          "remoteId": "66e95a755d27f25d3c704bea",
+          "nameAr": "شاي لاتيه",
+          "nameEn": "Chai Latte",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1767910909447_b7efa1f9-7518-4968-a217-f901752090ec.png",
+          "prices": {
+            "s": 4500,
+            "m": 5000,
+            "l": 6000
+          },
+          "sort": 5008
+        },
+        {
+          "remoteId": "64db45b47dc700a53aebf9a3",
+          "nameAr": "كابتشينو",
+          "nameEn": "Cappuccino",
+          "descAr": "اسبريسو وحليب ورغوة",
+          "descEn": "espresso, milk and foam",
+          "image": "https://grindersiq.iraqsapp.com/1767910977067_3d274620-c526-43d7-854a-c4ad35c62ff7.png",
+          "prices": {
+            "s": 4500,
+            "m": 5000,
+            "l": 6000
+          },
+          "sort": 5009
+        },
+        {
+          "remoteId": "64db47247dc700a53aebf9ac",
+          "nameAr": "فلات وايت",
+          "nameEn": "Flat White",
+          "descAr": "اسبريسو ، كمية صغيرة من الحليب",
+          "descEn": "espresso, small amount of milk",
+          "image": "https://grindersiq.iraqsapp.com/1767911030439_46062c45-b379-44dc-8f2f-3d5ce0d752ba.png",
+          "prices": {
+            "s": 4500,
+            "m": 0,
+            "l": 0
+          },
+          "sort": 5010
+        },
+        {
+          "remoteId": "64db48ea7dc700a53aebf9cb",
+          "nameAr": "دبل شوت ساخن",
+          "nameEn": "Hot Double Shot",
+          "descAr": "اسبريسو , كريمة حلوة",
+          "descEn": "espresso , sweet milk",
+          "image": "https://grindersiq.iraqsapp.com/1767911063729_d7ea2dcc-0ab0-4687-acc9-126ae81d1769.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 5011
+        },
+        {
+          "remoteId": "64db49507dc700a53aebf9d5",
+          "nameAr": "موكا",
+          "nameEn": "Mocha",
+          "descAr": "اسبريسو ، شوكولاتة ، حليب",
+          "descEn": "espresso ,chocolate , milk",
+          "image": "https://grindersiq.iraqsapp.com/1767911088597_79670777-0033-45ca-b6e4-a242a5884971.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 5012
+        },
+        {
+          "remoteId": "64db4b427dc700a53aebf9fe",
+          "nameAr": "موكا بالشوكولا البيضاء",
+          "nameEn": "White Chocolate Mocha",
+          "descAr": "سبريسو , شوكولاتة بيضاء , حليب",
+          "descEn": "espresso , white chocolate , milk",
+          "image": "https://grindersiq.iraqsapp.com/1767911117178_7b8f7d87-9bb4-4189-b30a-3f24f5e7c717.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 5013
+        },
+        {
+          "remoteId": "64db4fc97dc700a53aebfaa7",
+          "nameAr": "توفي لاتيه",
+          "nameEn": "Toffee Latte",
+          "descAr": "اسبريسو ، بندق ، صلصة كراميل ، حليب",
+          "descEn": "espresso ,hazelnut, caramel sauce ,milk",
+          "image": "https://grindersiq.iraqsapp.com/1767911157482_c46ff711-a9ad-4260-9503-a92bfb473885.png",
+          "prices": {
+            "s": 5750,
+            "m": 6250,
+            "l": 7250
+          },
+          "sort": 5013
+        },
+        {
+          "remoteId": "64db4ced7dc700a53aebfa65",
+          "nameAr": "كراميل مكياتو",
+          "nameEn": "Caramel Macchiato",
+          "descAr": "اسبريسو , فانيليا , صوص كراميل , حليب",
+          "descEn": "espresso , vanilla , caramel sauce ,  milk",
+          "image": "https://grindersiq.iraqsapp.com/1767911224280_8a70aa53-9283-46a9-922e-f1b87728362f.png",
+          "prices": {
+            "s": 5750,
+            "m": 6250,
+            "l": 7250
+          },
+          "sort": 5014
+        },
+        {
+          "remoteId": "656906af7eb5e7c54f09e2b6",
+          "nameAr": "سبانش لاتيه",
+          "nameEn": "Spanish Latte",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1767911266574_3ee4e66f-39f4-4504-8fde-7ce81a5bf4ef.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 5014
+        },
+        {
+          "remoteId": "64db4df07dc700a53aebfa7a",
+          "nameAr": "دبل موكا مكياتو",
+          "nameEn": "Double Mocha Micchiato",
+          "descAr": "سبريسو ، شوكولاتة بيضاء ، شوكولاتة ، حليب",
+          "descEn": "espresso, white chocolate , chocolate , milk",
+          "image": "https://grindersiq.iraqsapp.com/1767911319661_edb7143c-1bbf-42f6-b640-2058cb63b535.png",
+          "prices": {
+            "s": 5750,
+            "m": 6250,
+            "l": 7250
+          },
+          "sort": 5015
+        },
+        {
+          "remoteId": "64db50897dc700a53aebfabf",
+          "nameAr": "لاتيه بالفستق الحلبي",
+          "nameEn": "Pistachio Latte",
+          "descAr": "اسبريسو ، فستق حلبي ، حليب ، كريمة مخفوقة",
+          "descEn": "espresso,pistachio ,milk , whipped cream",
+          "image": "https://grindersiq.iraqsapp.com/1767911424473_b7462a6d-9ae2-4f93-ad5d-0ca1a22930b6.png",
+          "prices": {
+            "s": 5750,
+            "m": 6250,
+            "l": 7250
+          },
+          "sort": 5016
+        },
+        {
+          "remoteId": "64db4f1e7dc700a53aebfa98",
+          "nameAr": "لاتيه بالقرفة",
+          "nameEn": "Winter Spicy Latte",
+          "descAr": "اسبريسو ، نكهة سينمون. مسحوق سينمون، حليب",
+          "descEn": "espresso ,cinnmon flavor . cinnmon powder, milk",
+          "image": "https://grindersiq.iraqsapp.com/1767911474692_f8b75cf7-bf44-472f-884e-b911a765d2ac.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 5017
+        },
+        {
+          "remoteId": "69788372866b9d720bb32e23",
+          "nameAr": "لاتيه بحلاوة البسكويت",
+          "nameEn": "Biscoff Latte",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1769505649863_39a1ffff-dfe7-452d-93e1-27150c403fe4.png",
+          "prices": {
+            "s": 5750,
+            "m": 6250,
+            "l": 7250
+          },
+          "sort": 5018
+        },
+        {
+          "remoteId": "64db501d7dc700a53aebfaab",
+          "nameAr": "شوكولا ساخنة",
+          "nameEn": "Signature Hot Chocolate",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1767911518249_b5276147-1e3b-4016-9a02-8890bf4c1a6f.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 5020
+        },
+        {
+          "remoteId": "696c8c12866b9d720bad2d92",
+          "nameAr": "شاي",
+          "nameEn": "Tea",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1768721426444_7ae21b60-8cca-414d-9245-e36e007a03e0.png",
+          "prices": {
+            "s": 0,
+            "m": 2000,
+            "l": 0
+          },
+          "sort": 5021
+        }
+      ]
+    },
+    {
+      "remoteId": "64d8f39cd63073130a97c841",
+      "nameAr": "مشروبات باردة",
+      "nameEn": "Iced Drinks",
+      "image": "https://grindersiq.iraqsapp.com/1769077210211_c54affdc-267d-42a4-9a44-60dbd9e112bc.png",
+      "sort": 2,
+      "products": [
+        {
+          "remoteId": "66e95aa35d27f25d3c704c0e",
+          "nameAr": "شاي لاتيه مثلج",
+          "nameEn": "Chai Latte",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1767914002734_b9c9732e-137d-4cf9-a82f-395f18bedcfe.png",
+          "prices": {
+            "s": 4500,
+            "m": 5000,
+            "l": 6000
+          },
+          "sort": 1
+        },
+        {
+          "remoteId": "64db3af97dc700a53aebf826",
+          "nameAr": "امريكانو مثلج",
+          "nameEn": "Iced Americano",
+          "descAr": "اسبريسو , ماء",
+          "descEn": "Espresso , Water",
+          "image": "https://grindersiq.iraqsapp.com/1767911691487_1f8fdf76-2430-4f72-a31c-0ef17c671756.png",
+          "prices": {
+            "s": 4000,
+            "m": 5000,
+            "l": 6000
+          },
+          "sort": 6001
+        },
+        {
+          "remoteId": "64db40c67dc700a53aebf932",
+          "nameAr": "لاتيه مثلج",
+          "nameEn": "Iced latte",
+          "descAr": "حليب -اسبريسو",
+          "descEn": "Espresso - Milk",
+          "image": "https://grindersiq.iraqsapp.com/1767911753293_9982ff1e-dcbb-49c7-972f-04194cf2b689.png",
+          "prices": {
+            "s": 4500,
+            "m": 5000,
+            "l": 6000
+          },
+          "sort": 6002
+        },
+        {
+          "remoteId": "64db42317dc700a53aebf943",
+          "nameAr": "موكا مثلجة",
+          "nameEn": "Iced Mocha",
+          "descAr": "شوكلت - اسبريسو - حليب",
+          "descEn": "chocolate - Espresso - Milk",
+          "image": "https://grindersiq.iraqsapp.com/1767911816636_3cc503b8-fdd3-4e26-abfe-4893c3bfaf91.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 6003
+        },
+        {
+          "remoteId": "64db42f67dc700a53aebf957",
+          "nameAr": "موكا مثلجة بالشوكولا البيضاء",
+          "nameEn": "Iced White Mocha",
+          "descAr": "شوكولاتة بيضاء - اسبريسو - حليب",
+          "descEn": "White chocolate - Espresso - Milk",
+          "image": "https://grindersiq.iraqsapp.com/1767911843227_36e25575-1fe4-466c-bc64-38472066bdbc.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 6004
+        },
+        {
+          "remoteId": "64db43a37dc700a53aebf967",
+          "nameAr": "دبل شوت مثلج",
+          "nameEn": "Double Shot Shaken",
+          "descAr": "اسبريسو - حليب محلة",
+          "descEn": "Espresso -sweet milk",
+          "image": "https://grindersiq.iraqsapp.com/1767911871133_1e7f2311-f28e-4e82-9974-9e254ba46bb4.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 6005
+        },
+        {
+          "remoteId": "64db457a7dc700a53aebf99f",
+          "nameAr": "توفي لاتيه مثلج",
+          "nameEn": "Iced Toffee Latte",
+          "descAr": "اسبريسو - هايزلنت - حليب - كراميل",
+          "descEn": "Espresso - Hazelnut - Milk - Caramel",
+          "image": "https://grindersiq.iraqsapp.com/1767911896632_31059f31-5203-4f0c-8b52-2a2689d84e0f.png",
+          "prices": {
+            "s": 5750,
+            "m": 6250,
+            "l": 7250
+          },
+          "sort": 6005
+        },
+        {
+          "remoteId": "64db44557dc700a53aebf978",
+          "nameAr": "كراميل مكياتو مثلج",
+          "nameEn": "Iced Caramel Macchiato",
+          "descAr": "فانيلا - حليب - اسبريسو - كراميل صوص",
+          "descEn": "Vanilla - Milk - Espresso - Caramel sauce",
+          "image": "https://grindersiq.iraqsapp.com/1767911971475_c466a92a-c3a7-4dec-b060-fbdbadf6ae85.png",
+          "prices": {
+            "s": 5750,
+            "m": 6250,
+            "l": 7250
+          },
+          "sort": 6006
+        },
+        {
+          "remoteId": "64db44e97dc700a53aebf98e",
+          "nameAr": "دبل موكا مكياتو مثلج",
+          "nameEn": "Iced Double Mocha Macchiato",
+          "descAr": "شوكولاتة بيضاء - حليب - اسبريسو - شوكلت صوص",
+          "descEn": "White chocolate - Milk - Espresso -Chocolate sauce",
+          "image": "https://grindersiq.iraqsapp.com/1767912018054_052a49ca-5141-4119-8359-d34eefcb75a0.png",
+          "prices": {
+            "s": 5750,
+            "m": 6250,
+            "l": 7250
+          },
+          "sort": 6007
+        },
+        {
+          "remoteId": "6569334d7eb5e7c54f09e7e5",
+          "nameAr": "سبانش لاتيه مثلج",
+          "nameEn": "Iced Spanish Latte",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1767912071201_22929766-199e-4f3f-9022-ec41042d8f1e.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 6007
+        },
+        {
+          "remoteId": "64db485e7dc700a53aebf9b2",
+          "nameAr": "لاتيه مثلج بحلاوة البسكويت",
+          "nameEn": "Iced Biscoff Latte",
+          "descAr": "لوتيس - حليب - اسبريسو",
+          "descEn": "Lotus - Milk - Espresso",
+          "image": "https://grindersiq.iraqsapp.com/1767912127282_167ea5c4-89ed-4e32-bb14-e4d0390ef645.png",
+          "prices": {
+            "s": 5750,
+            "m": 6250,
+            "l": 7250
+          },
+          "sort": 6008
+        },
+        {
+          "remoteId": "64db497f7dc700a53aebf9de",
+          "nameAr": "لاتيه مثلج بالفستق الحلبي",
+          "nameEn": "ice Pistachio latte",
+          "descAr": "اسبريسو - فستق حلبي - حليب - كريمة مخفوقة",
+          "descEn": "Espresso - Pistachio - Milk - Whipped cream",
+          "image": "https://grindersiq.iraqsapp.com/1767912181502_5c520815-fd06-4d45-93cd-09fa6aae5aa6.png",
+          "prices": {
+            "s": 5750,
+            "m": 6250,
+            "l": 7250
+          },
+          "sort": 6009
+        },
+        {
+          "remoteId": "64db4b927dc700a53aebfa13",
+          "nameAr": "شوكولا مثلجة",
+          "nameEn": "Iced chocolate",
+          "descAr": "شوكولاتة - حليب",
+          "descEn": "Chocolate - Milk",
+          "image": "https://grindersiq.iraqsapp.com/1767912232865_fd999f5b-0c52-449b-9efa-31a4b3adbab3.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 6010
+        },
+        {
+          "remoteId": "6666e9fd5d27f25d3c3b4a64",
+          "nameAr": "ماتشا لاتيه مثلج",
+          "nameEn": "Ice Matcha Latte",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1767912288916_b7cdfada-abc6-4310-bcc3-20ac8c576f8f.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 6022
+        },
+        {
+          "remoteId": "64db502f7dc700a53aebfab4",
+          "nameAr": "قهوة معتقة",
+          "nameEn": "Cold Brew",
+          "descAr": "قهوة معتقة لمدة 20 ساعة - ماء - ثلج",
+          "descEn": "Aged coffee for 20 hours - Water - Ice",
+          "image": "https://grindersiq.iraqsapp.com/1767912330004_157731cf-4228-4240-989e-8e54294f4ba5.png",
+          "prices": {
+            "s": 5000,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 7001
+        }
+      ]
+    },
+    {
+      "remoteId": "64e0ec1d87024d3f62638b4b",
+      "nameAr": "جيلرز",
+      "nameEn": "Chillers",
+      "image": "https://grindersiq.iraqsapp.com/1769075802481_3f05a46b-99ee-4dfc-acde-96571383bbce.png",
+      "sort": 3,
+      "products": [
+        {
+          "remoteId": "67e9fc122bdab609d36b659d",
+          "nameAr": "التوت مع الليمون",
+          "nameEn": "Lime Raspberry",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1767914054555_5d049d10-b013-4b07-9312-3a68d3038107.png",
+          "prices": {
+            "s": 5000,
+            "m": 6000,
+            "l": 6500
+          },
+          "sort": 1
+        },
+        {
+          "remoteId": "67e9fcc52bdab609d36b65a5",
+          "nameAr": "باشن فروت مع البرتقال",
+          "nameEn": "Orange passionfruit",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1767914096013_58ae1255-19ca-4556-8319-d0312707bdbb.png",
+          "prices": {
+            "s": 5000,
+            "m": 6000,
+            "l": 6500
+          },
+          "sort": 2
+        },
+        {
+          "remoteId": "67e9fd602bdab609d36b65aa",
+          "nameAr": "الرمان مع الفراولة",
+          "nameEn": "Strawberry pomegranate",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1767914136448_6e23244c-7709-4743-97d3-bb126465df6e.png",
+          "prices": {
+            "s": 5000,
+            "m": 6000,
+            "l": 6500
+          },
+          "sort": 3
+        }
+      ]
+    },
+    {
+      "remoteId": "64d8f71cd63073130a97c863",
+      "nameAr": "الشاي المثلج",
+      "nameEn": "Iced Tea",
+      "image": "https://grindersiq.iraqsapp.com/1769075884429_25c56093-b693-4652-916d-d3128f6f8f9c.png",
+      "sort": 4,
+      "products": [
+        {
+          "remoteId": "64db55917dc700a53aebfb08",
+          "nameAr": "شاي الخوخ المثلج",
+          "nameEn": "Peach ice tea",
+          "descAr": "شاي - خوخ - ثلج",
+          "descEn": "Peach - tea - ice",
+          "image": "https://grindersiq.iraqsapp.com/1767912420168_5641d52b-cbf0-4039-9a6b-a0d3c567302b.png",
+          "prices": {
+            "s": 5000,
+            "m": 6000,
+            "l": 6500
+          },
+          "sort": 8001
+        },
+        {
+          "remoteId": "64db56447dc700a53aebfb10",
+          "nameAr": "شاي التوت المثلج",
+          "nameEn": "Mixed berry ice tea",
+          "descAr": "شاي - توت أزرق - توت أحمر - ثلج",
+          "descEn": "Tea - Bluberry - Rasbperry - Ice",
+          "image": "https://grindersiq.iraqsapp.com/1767912543828_ebb2858b-64d9-4d2a-b29f-ed50a32297f3.png",
+          "prices": {
+            "s": 5000,
+            "m": 6000,
+            "l": 6500
+          },
+          "sort": 8002
+        },
+        {
+          "remoteId": "64db56fb7dc700a53aebfb24",
+          "nameAr": "شاي المانجو المثلج",
+          "nameEn": "Mango passion ice tea",
+          "descAr": "شاي - مانكو - فاكهة العاطفة - ثلج",
+          "descEn": "Tea - Mango - Passion fruit - Ice",
+          "image": "https://grindersiq.iraqsapp.com/1767912569566_e76d4aad-cedb-437a-acf3-76587a4497d7.png",
+          "prices": {
+            "s": 5000,
+            "m": 6000,
+            "l": 6500
+          },
+          "sort": 8003
+        }
+      ]
+    },
+    {
+      "remoteId": "64d8fa30d63073130a97c867",
+      "nameAr": "فرابيه",
+      "nameEn": "Frappe",
+      "image": "https://grindersiq.iraqsapp.com/1769076112782_ac549ba3-3730-4d3b-bc1b-01bd9959d212.png",
+      "sort": 5,
+      "products": [
+        {
+          "remoteId": "64db611b7dc700a53aebfc77",
+          "nameAr": "فرابيه بالقهوة",
+          "nameEn": "Coffee Frappe",
+          "descAr": "حليب - كوفي بايز - ثلج",
+          "descEn": "Milk - Coffee base - Ice",
+          "image": "https://grindersiq.iraqsapp.com/1767912696923_eac5248c-bec2-41e2-bf81-1d2cb9d6a4e9.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 9001
+        },
+        {
+          "remoteId": "64db61f97dc700a53aebfc90",
+          "nameAr": "فرابيه قهوة بالكراميل",
+          "nameEn": "Caramel Coffee Frappe",
+          "descAr": "حليب - كوفي بايز - كراميل - ثلج - كريمة مخفوقة",
+          "descEn": "Milk - Coffee base - Caramel - Ice - Whipped cream",
+          "image": "https://grindersiq.iraqsapp.com/1767912896640_cade9ebd-3826-42e6-98a5-0609ae65ccd5.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 9003
+        },
+        {
+          "remoteId": "64db62687dc700a53aebfc9c",
+          "nameAr": "فرابيه موكا",
+          "nameEn": "Mocha frappe",
+          "descAr": "حليب - كوفي بايز - تشوكلت - ثلج - كريمة مخفوقة",
+          "descEn": "Milk - Coffee base - Chocolate - Ice - Whipped cream",
+          "image": "https://grindersiq.iraqsapp.com/1767912946757_b7271aea-de92-422f-a42d-ae467d11035e.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 9004
+        },
+        {
+          "remoteId": "64db63477dc700a53aebfcc6",
+          "nameAr": "فرابيه موكا بيضاء",
+          "nameEn": "White chocolate mocha frappe",
+          "descAr": "حليب - كوفي بايز - وايت تشوكلت - ثلج - كريمة",
+          "descEn": "Milk - Coffee base - White chocolate - ice - Whipped cream",
+          "image": "https://grindersiq.iraqsapp.com/1767912996848_6942e934-4420-4c6f-9f6e-4cd5ef98cb3d.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 9005
+        },
+        {
+          "remoteId": "64db644b7dc700a53aebfcca",
+          "nameAr": "فرابيه موكا رقائق الشوكولا",
+          "nameEn": "Mocha chocolate chips Frappe",
+          "descAr": "حليب - كوفي بايز - تشوكلت - حبوب الشوكولا -كريمة مخفوقة",
+          "descEn": "Milk - Coffee base - chocolate - Chocolate chips - Whipped cream",
+          "image": "https://grindersiq.iraqsapp.com/1767913057720_c58aa3aa-a654-4257-9724-0d8801fc30e7.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 9006
+        }
+      ]
+    },
+    {
+      "remoteId": "64d8fa48d63073130a97c86b",
+      "nameAr": "كريم",
+      "nameEn": "Cream",
+      "image": "https://grindersiq.iraqsapp.com/1769075954206_68da11c7-b533-4914-a67c-0c2c6cf02fc4.png",
+      "sort": 6,
+      "products": [
+        {
+          "remoteId": "64db65f87dc700a53aebfce5",
+          "nameAr": "مخفوق كريمة الفانيلا",
+          "nameEn": "Vanilla cream",
+          "descAr": "حليب - كريم بايز - فانيلا - تلج- كريمة مخفوقة",
+          "descEn": "Milk - Cream base - vanilla - Ice - Whipped cream",
+          "image": "https://grindersiq.iraqsapp.com/1767913303339_7d3b2abc-7f8c-4507-8555-7cbbb793d6e1.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 10001
+        },
+        {
+          "remoteId": "64db66f77dc700a53aebfcf6",
+          "nameAr": "مخفوق كريمة الكراميل",
+          "nameEn": "Caramel cream",
+          "descAr": "حليب - كريم بايز - كراميل - ثلج - كريمة مخفوقة",
+          "descEn": "Milk - Cream base - caramel - Ice - Whipped cream",
+          "image": "https://grindersiq.iraqsapp.com/1767913351074_b0baf56c-2a03-48ff-a9dd-182355e039f4.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 10002
+        },
+        {
+          "remoteId": "64db67d47dc700a53aebfd09",
+          "nameAr": "مخفوق كريمة الشوكولا",
+          "nameEn": "Chocolate cream",
+          "descAr": "حليب - كريم بايز - تشوكلت - ثلج - كريمة مخفوقة",
+          "descEn": "Milk - Cream base - chocolate - ice - Whipped cream",
+          "image": "https://grindersiq.iraqsapp.com/1767913387867_25daf7cf-9168-491f-ad39-f119d594eb27.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 10003
+        },
+        {
+          "remoteId": "64db68917dc700a53aebfd14",
+          "nameAr": "مخفوق كريمة الرقائق الشوكولا",
+          "nameEn": "Chocolate chips cream",
+          "descAr": "حليب - كريم بايز - تشوكلت - حبوب الشوكولا - ثلج - كريمة مخفوقة",
+          "descEn": "Milk - Cream base - chocolate - chocolate chips- ice - Whipped cream",
+          "image": "https://grindersiq.iraqsapp.com/1767913409596_34f1fe06-6120-41a1-a1ad-bb0becff5e1c.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 10004
+        },
+        {
+          "remoteId": "64db69727dc700a53aebfd1e",
+          "nameAr": "مخفوق كريمة الشوكولا البيضاء",
+          "nameEn": "White chocolate cream",
+          "descAr": "حليب - كريم بايز - وايت شوكلت - كريمة مخفوقة",
+          "descEn": "Milk - cream base - white chocolate - whipped cream",
+          "image": "https://grindersiq.iraqsapp.com/1767913436885_6dcf0e0e-213d-40e3-b475-38308c4d2780.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 10005
+        },
+        {
+          "remoteId": "64db6a827dc700a53aebfd26",
+          "nameAr": "مخفوق كريمة الفراولة",
+          "nameEn": "Strawberry cream",
+          "descAr": "حليب - كريم بايز - فراولة - ثلج - كريمة مخفوقة",
+          "descEn": "Milk - Cream base - Strawberry - Ice- Whipped cream",
+          "image": "https://grindersiq.iraqsapp.com/1767913469858_8b972ca1-8e4f-47f2-8fdc-ee498ebbf68c.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 10006
+        },
+        {
+          "remoteId": "64db6a027dc700a53aebfd22",
+          "nameAr": "مخفوق كريمة التوت الازرق",
+          "nameEn": "Bluberry cream",
+          "descAr": "حليب - كريم بايز - توت ازرق - ثلج - كريمة مخفوقة",
+          "descEn": "Milk - Cream base - Bluberry - ice - Whipped cream",
+          "image": "https://grindersiq.iraqsapp.com/1767913500242_1737a0fd-038d-4d8f-9c45-24d522fa0a83.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 10007
+        },
+        {
+          "remoteId": "64db6aeb7dc700a53aebfd2a",
+          "nameAr": "مخفوق كريمة الفستق الحلبي",
+          "nameEn": "Pistachio cream",
+          "descAr": "حليب - كريم بايز - فستق حلبي - ثلج - كريمة مخفوقة",
+          "descEn": "Milk - Cream base - Pistachio - ice - Wipped cream",
+          "image": "https://grindersiq.iraqsapp.com/1767913530642_07894b8c-1059-491c-834f-1957a53483e1.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 10008
+        }
+      ]
+    },
+    {
+      "remoteId": "64d8fa68d63073130a97c86f",
+      "nameAr": "الزبادي",
+      "nameEn": "Yogurt",
+      "image": "https://grindersiq.iraqsapp.com/1769075990268_bb96539c-acd2-4133-96c0-ad86973c3975.png",
+      "sort": 7,
+      "products": [
+        {
+          "remoteId": "64db5e297dc700a53aebfc3e",
+          "nameAr": "زبادي الفراولة مع المانجو",
+          "nameEn": "Mango strawberry yoghurt",
+          "descAr": "حليب - يوغرت - مانكو - فراولة -",
+          "descEn": "Milk - yoghurt - Mango - Strawberry",
+          "image": "https://grindersiq.iraqsapp.com/1767913631982_10a5e04f-51d9-44ca-a457-c80dd10938e0.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 11001
+        },
+        {
+          "remoteId": "64db5eaf7dc700a53aebfc42",
+          "nameAr": "زبادي الفراولة مع الموز",
+          "nameEn": "Strawberry banana yoghurt",
+          "descAr": "حليب - يوغرت - فراولة - موز",
+          "descEn": "Milk - Banana - Strawberry- yoghurt",
+          "image": "https://grindersiq.iraqsapp.com/1767913649132_a0477871-9bf9-4989-8b09-c48743cfc7a7.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 11002
+        },
+        {
+          "remoteId": "64db5f787dc700a53aebfc5d",
+          "nameAr": "زبادي التوت",
+          "nameEn": "Mixed berry yoghurt",
+          "descAr": "حليب - يوغرت - توت أزرق - توت أحمر",
+          "descEn": "Milk - Yoghurt - Bluberry - Rasbperry",
+          "image": "https://grindersiq.iraqsapp.com/1767913676910_9f21afa3-772f-4556-a632-7c5901d91c48.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 11003
+        },
+        {
+          "remoteId": "64db5fc27dc700a53aebfc67",
+          "nameAr": "زبادي الخوخ",
+          "nameEn": "Peach yoghurt",
+          "descAr": "حليب - يوغرت - خوخ",
+          "descEn": "Milk - Yoghurt - Peach",
+          "image": "https://grindersiq.iraqsapp.com/1767913693912_7a64db22-3e78-4cb6-9160-1f885287b053.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 11004
+        }
+      ]
+    },
+    {
+      "remoteId": "64db3ef07dc700a53aebf924",
+      "nameAr": "سموذي",
+      "nameEn": "Refreshment",
+      "image": "https://grindersiq.iraqsapp.com/1769076179911_297e26c7-cf8d-4fe6-b116-820a761af3da.png",
+      "sort": 8,
+      "products": [
+        {
+          "remoteId": "68421fe35e0f1237ed281920",
+          "nameAr": "سموذي الخوخ والبابايا",
+          "nameEn": "Peach Papaya",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1767914214855_d31f70a6-043f-4982-bb9b-3f7c810a323d.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7000
+          },
+          "sort": 2
+        },
+        {
+          "remoteId": "68421efe5e0f1237ed2818f9",
+          "nameAr": "سموذي الكرز وفاكهة التنين",
+          "nameEn": "Cherry Dragon Fruit",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1767914246820_1ca73fbe-8ed3-491d-8457-1bb672805c5a.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7000
+          },
+          "sort": 4
+        },
+        {
+          "remoteId": "64db57697dc700a53aebfb29",
+          "nameAr": "سموذي مدغشقر",
+          "nameEn": "Madagascar",
+          "descAr": "برتقال - فراولة - مانكا",
+          "descEn": "Orange - Mango - Strawberry",
+          "image": "https://grindersiq.iraqsapp.com/1767913774842_b5889d58-c597-4f8b-9fd1-60b8d15f011a.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7000
+          },
+          "sort": 12001
+        }
+      ]
+    },
+    {
+      "remoteId": "64d8fa8ad63073130a97c873",
+      "nameAr": "موهيتو",
+      "nameEn": "MOJITO",
+      "image": "https://grindersiq.iraqsapp.com/1769076200839_66f05e22-1b82-4bd4-8caa-b1425252a3cc.png",
+      "sort": 9,
+      "products": [
+        {
+          "remoteId": "64db5add7dc700a53aebfb9b",
+          "nameAr": "موهيتو الليمون والنعناع",
+          "nameEn": "Lemon Mint Mojito",
+          "descAr": "ليمون - مياه غازية - نعناع",
+          "descEn": "Lemon - Soda - Mint",
+          "image": "https://grindersiq.iraqsapp.com/1767913810773_bfba8196-625e-48c7-8a15-c8771f805d20.png",
+          "prices": {
+            "s": 5000,
+            "m": 6000,
+            "l": 6500
+          },
+          "sort": 13001
+        },
+        {
+          "remoteId": "64db5b487dc700a53aebfbb2",
+          "nameAr": "موهيتو الفراولة والليمون",
+          "nameEn": "Strawberry lemon Mojito",
+          "descAr": "فراولة - ليمون - مياه غازية - نعناع",
+          "descEn": "Strawberry - Lemon - Soda - Mint",
+          "image": "https://grindersiq.iraqsapp.com/1767913842505_aadcc7ea-9045-44f5-a46d-6af3823c54ac.png",
+          "prices": {
+            "s": 5000,
+            "m": 6000,
+            "l": 6500
+          },
+          "sort": 13002
+        },
+        {
+          "remoteId": "64db5bc07dc700a53aebfbc8",
+          "nameAr": "موهيتو الخوخ والليمون",
+          "nameEn": "Peach lemon Mojito",
+          "descAr": "ليمون - مياه غازية - خوخ - نعناع",
+          "descEn": "Lemon- soda - Peach - Mint",
+          "image": "https://grindersiq.iraqsapp.com/1767913898022_0140077a-bace-4ccc-bb8c-fd2e99fc9fc5.png",
+          "prices": {
+            "s": 5000,
+            "m": 6000,
+            "l": 6500
+          },
+          "sort": 13003
+        },
+        {
+          "remoteId": "64db5cc07dc700a53aebfbfe",
+          "nameAr": "موهيتو العلكة",
+          "nameEn": "Bubble gum Mojito",
+          "descAr": "علكة - مياه غازية - نعناع",
+          "descEn": "Gum- Soda - Mint",
+          "image": "https://grindersiq.iraqsapp.com/1767913931220_f3244750-00c7-4217-bac7-f86596e3f301.png",
+          "prices": {
+            "s": 5000,
+            "m": 6000,
+            "l": 6500
+          },
+          "sort": 13005
+        }
+      ]
+    },
+    {
+      "remoteId": "64fa351169349cca472cbe92",
+      "nameAr": "مشروبات لايت",
+      "nameEn": "Light Drinks",
+      "image": "https://grindersiq.iraqsapp.com/1769076251532_39cc4645-bb35-49cd-afab-a5c6973c2903.png",
+      "sort": 10,
+      "products": [
+        {
+          "remoteId": "696b880b9494fa768a6bb992",
+          "nameAr": "ليمون و برتقال",
+          "nameEn": "Orange / Lemon",
+          "descAr": ".",
+          "descEn": ".",
+          "image": "https://grindersiq.iraqsapp.com/1768654858885_6210d0f1-a2e9-4f7c-831f-ddc67202dfed.png",
+          "prices": {
+            "s": 0,
+            "m": 5000,
+            "l": 0
+          },
+          "sort": -1
+        },
+        {
+          "remoteId": "64fa365769349cca472cbeaa",
+          "nameAr": "برتقال",
+          "nameEn": "Orange",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1767914421185_c7ff059c-0ef9-4b52-ab5a-7440f19fd334.png",
+          "prices": {
+            "s": 0,
+            "m": 5000,
+            "l": 0
+          },
+          "sort": 0
+        },
+        {
+          "remoteId": "696b784e9494fa768a6bac1b",
+          "nameAr": "كراميل فرابيه خالي من السكر",
+          "nameEn": "Caramel Frappe Sugar Free",
+          "descAr": ".",
+          "descEn": ".",
+          "image": "https://grindersiq.iraqsapp.com/1768650830395_d8812240-5c04-4c19-8c11-9e11d2fc2673.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 1
+        },
+        {
+          "remoteId": "696b790f9494fa768a6bacc3",
+          "nameAr": "فانيلا فرابيه خالي من السكر",
+          "nameEn": "Vanilla Frappe Sugar Free",
+          "descAr": ".",
+          "descEn": ".",
+          "image": "https://grindersiq.iraqsapp.com/1768651022716_ca6a3569-8a39-4449-a449-16483968402e.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 2
+        },
+        {
+          "remoteId": "696b79c89494fa768a6bad50",
+          "nameAr": "بندق فرابيه خالي من السكر",
+          "nameEn": "Hazelnut Frappe Sugar Free",
+          "descAr": ".",
+          "descEn": ".",
+          "image": "https://grindersiq.iraqsapp.com/1768651208008_7001bba9-7215-4766-a743-063ca0bc71e9.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 3
+        },
+        {
+          "remoteId": "696b7a8c9494fa768a6badc8",
+          "nameAr": "كراميل كريم خالي من السكر",
+          "nameEn": "Caramel Cream Sugar Free",
+          "descAr": ".",
+          "descEn": ".",
+          "image": "https://grindersiq.iraqsapp.com/1768651403658_f4990b9a-a536-44da-b63b-04e9ea1678fe.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 4
+        },
+        {
+          "remoteId": "696b7da59494fa768a6bafcd",
+          "nameAr": "فانيلا كريم خالي من السكر",
+          "nameEn": "Vanilla Cream Sugar Free",
+          "descAr": ".",
+          "descEn": ".",
+          "image": "https://grindersiq.iraqsapp.com/1768652196965_d4ec132d-3f9f-4033-8702-f36a095824e2.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 5
+        },
+        {
+          "remoteId": "696b80ab9494fa768a6bb28a",
+          "nameAr": "بندق كريم خالي من السكر",
+          "nameEn": "Hazelnut Cream Sugar Free",
+          "descAr": ".",
+          "descEn": ".",
+          "image": "https://grindersiq.iraqsapp.com/1768652971618_f9ba9754-3a86-4532-9308-281682e0085d.png",
+          "prices": {
+            "s": 6000,
+            "m": 6500,
+            "l": 7500
+          },
+          "sort": 6
+        },
+        {
+          "remoteId": "696b81999494fa768a6bb2e5",
+          "nameAr": "كراميل لاتيه خالي من السكر",
+          "nameEn": "Caramel Latte Sugar Free",
+          "descAr": ".",
+          "descEn": ".",
+          "image": "https://grindersiq.iraqsapp.com/1768653208469_4763a442-e2cd-4dac-a84b-97f33c6d2d44.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 7
+        },
+        {
+          "remoteId": "696b81e99494fa768a6bb2f7",
+          "nameAr": "فانيلا لاتيه خالي من السكر",
+          "nameEn": "Vanilla Latte Sugar Free",
+          "descAr": ".",
+          "descEn": ".",
+          "image": "https://grindersiq.iraqsapp.com/1768653289582_56a0554d-92fd-4a59-9d54-e0bb3a85bf35.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 8
+        },
+        {
+          "remoteId": "696b82399494fa768a6bb326",
+          "nameAr": "بندق لاتيه خالي من السكر",
+          "nameEn": "Hazelnut Latte Sugar Free",
+          "descAr": ".",
+          "descEn": ".",
+          "image": "https://grindersiq.iraqsapp.com/1768653369548_b606ec77-5db0-4d27-a679-61c82958dd89.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 9
+        },
+        {
+          "remoteId": "696b84389494fa768a6bb591",
+          "nameAr": "لاتيه كراميل  خالي من السكر مثلج",
+          "nameEn": "Ice Latte Caramel Sugar Free",
+          "descAr": ".",
+          "descEn": ".",
+          "image": "https://grindersiq.iraqsapp.com/1768653880410_a2d94ffd-0285-4469-bbef-1ebed03b12bf.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 10
+        },
+        {
+          "remoteId": "696b84ce9494fa768a6bb656",
+          "nameAr": "لاتيه فانيلا  خالي من السكر مثلج",
+          "nameEn": "Ice Latte Vanilla Sugar Free",
+          "descAr": ".",
+          "descEn": ".",
+          "image": "https://grindersiq.iraqsapp.com/1768654030117_0a1121bf-a331-406d-a2ec-c54de49b55af.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 11
+        },
+        {
+          "remoteId": "696b85789494fa768a6bb72d",
+          "nameAr": "لاتيه بندق  خالي من السكر مثلج",
+          "nameEn": "Ice Latte Hazelnut Sugar Free",
+          "descAr": ".",
+          "descEn": ".",
+          "image": "https://grindersiq.iraqsapp.com/1768654199308_cd4213c4-6ce0-4b13-84fb-bd0f931c34de.png",
+          "prices": {
+            "s": 5500,
+            "m": 6000,
+            "l": 7000
+          },
+          "sort": 12
+        }
+      ]
+    },
+    {
+      "remoteId": "64d8f1acd63073130a97c826",
+      "nameAr": "ساندويتش",
+      "nameEn": "Sandwich",
+      "image": "https://grindersiq.iraqsapp.com/1769076313152_c598fb18-cb39-4af7-a081-457a9d7654f9.png",
+      "sort": 11,
+      "products": [
+        {
+          "remoteId": "64db79697dc700a53aebfde7",
+          "nameAr": "روست بيف",
+          "nameEn": "Roast beef",
+          "descAr": "0",
+          "descEn": "0",
+          "image": "https://grindersiq.iraqsapp.com/1692116519786_e02185fc-58bb-4d6c-9be4-d8dfb5c55dc3.png",
+          "prices": {
+            "s": 0,
+            "m": 5000,
+            "l": 0
+          },
+          "sort": 3001
+        },
+        {
+          "remoteId": "664232e65d27f25d3c2be220",
+          "nameAr": "تركي اند تشيز خبز اسمر",
+          "nameEn": "Turkey and cheese brown bread",
+          "descAr": "0",
+          "descEn": "0",
+          "image": "https://grindersiq.iraqsapp.com/1716631716765_80779b62-d01a-41d9-9f24-a8b60769188c.png",
+          "prices": {
+            "s": 0,
+            "m": 5000,
+            "l": 0
+          },
+          "sort": 3001
+        },
+        {
+          "remoteId": "64db79c67dc700a53aebfdef",
+          "nameAr": "تركي اند تشيز خبز ابيض",
+          "nameEn": "Turkey and Chesse white bread",
+          "descAr": "0",
+          "descEn": "0",
+          "image": "https://grindersiq.iraqsapp.com/1692116539748_66ad4e7b-db1c-4aa4-9aaf-88284e9ad889.png",
+          "prices": {
+            "s": 0,
+            "m": 5000,
+            "l": 0
+          },
+          "sort": 3002
+        },
+        {
+          "remoteId": "64db7a677dc700a53aebfdfe",
+          "nameAr": "حلومي تشيباتا",
+          "nameEn": "halloumi Chibata",
+          "descAr": "0",
+          "descEn": "0",
+          "image": "https://grindersiq.iraqsapp.com/1692116585727_2022f7e3-f231-458f-ab72-c40ab534e212.png",
+          "prices": {
+            "s": 0,
+            "m": 4500,
+            "l": 0
+          },
+          "sort": 3004
+        },
+        {
+          "remoteId": "67e883b02bdab609d36afbbb",
+          "nameAr": "بيتزا فوكاشيا",
+          "nameEn": "pizza focaccia",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1743291312118_f26f1096-0bf7-496d-ba58-e72575d32df9.png",
+          "prices": {
+            "s": 0,
+            "m": 5000,
+            "l": 0
+          },
+          "sort": 3005
+        },
+        {
+          "remoteId": "67e883ed2bdab609d36afbd7",
+          "nameAr": "باباروني بايغل",
+          "nameEn": "Pepperoni bagel",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1743291373022_240a5a0d-135f-4b1f-b91f-92c78f65d850.png",
+          "prices": {
+            "s": 0,
+            "m": 4500,
+            "l": 0
+          },
+          "sort": 3005
+        },
+        {
+          "remoteId": "64db7af57dc700a53aebfe14",
+          "nameAr": "تركي اند تشيز لوف سندوتش",
+          "nameEn": "turkey and cheese loaf sandwish",
+          "descAr": "0",
+          "descEn": "0",
+          "image": "https://grindersiq.iraqsapp.com/1692110094252_26a63318-5872-47ef-8da0-2ff3276cefd0.png",
+          "prices": {
+            "s": 0,
+            "m": 4500,
+            "l": 0
+          },
+          "sort": 3007
+        }
+      ]
+    },
+    {
+      "remoteId": "64d8f163d63073130a97c822",
+      "nameAr": "معجنات",
+      "nameEn": "Pastries",
+      "image": "https://grindersiq.iraqsapp.com/1769076548084_ba965fed-a17e-41e4-ab0b-c803e7279d0a.png",
+      "sort": 12,
+      "products": [
+        {
+          "remoteId": "696361b74e2081ea7efb968e",
+          "nameAr": "سوبريم كاسترد",
+          "nameEn": "Supreme Custard",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1768120759067_8e351017-9ae7-4ace-93de-af0904741ed7.png",
+          "prices": {
+            "s": 0,
+            "m": 4000,
+            "l": 0
+          },
+          "sort": 4
+        },
+        {
+          "remoteId": "696361ed4e2081ea7efb96e3",
+          "nameAr": "سوبريم بيسكوف",
+          "nameEn": "Supreme Biscoff",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1768120813130_ac1f72bb-e9c7-4850-9f8d-c762c76073db.png",
+          "prices": {
+            "s": 0,
+            "m": 4000,
+            "l": 0
+          },
+          "sort": 5
+        },
+        {
+          "remoteId": "699ad5c2866b9d720bca664e",
+          "nameAr": "دونات بالشوكولا",
+          "nameEn": "Chocolate Donut",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1771754946662_da96e365-e58b-4db1-ab35-ef1224827017.png",
+          "prices": {
+            "s": 0,
+            "m": 3000,
+            "l": 0
+          },
+          "sort": 10
+        },
+        {
+          "remoteId": "699ad81b866b9d720bca6707",
+          "nameAr": "دونات بالفستق الحلبي",
+          "nameEn": "Pistachio Donut",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1771755547271_9d8def35-534b-4adb-9259-5b5e7d6638aa.png",
+          "prices": {
+            "s": 0,
+            "m": 3000,
+            "l": 0
+          },
+          "sort": 11
+        },
+        {
+          "remoteId": "69f85695102d28897e28c6cd",
+          "nameAr": "شوكليت دانش",
+          "nameEn": "chocolate danish",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1777882773000_6cea8af3-3687-41a7-afe5-c5e355b74807.png",
+          "prices": {
+            "s": 0,
+            "m": 4000,
+            "l": 0
+          },
+          "sort": 11
+        },
+        {
+          "remoteId": "699ad8bd866b9d720bca6765",
+          "nameAr": "دونات بالكاسترد",
+          "nameEn": "Custard Donut",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1771755709535_1846f1ce-c40b-4fe0-9624-af42af095b45.png",
+          "prices": {
+            "s": 0,
+            "m": 3000,
+            "l": 0
+          },
+          "sort": 13
+        },
+        {
+          "remoteId": "69f3b340102d28897e25628e",
+          "nameAr": "جوكلت كوكيز",
+          "nameEn": "Chocolate Cookies",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1777578816107_de8041f0-440d-4e80-9b37-333ffdfe74a0.png",
+          "prices": {
+            "s": 0,
+            "m": 2000,
+            "l": 0
+          },
+          "sort": 13
+        },
+        {
+          "remoteId": "64db71987dc700a53aebfd55",
+          "nameAr": "تشيز كروسان",
+          "nameEn": "Cheese Croissant",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1716631566199_885ea58b-e955-417d-b27e-9fd2602a2ace.png",
+          "prices": {
+            "s": 0,
+            "m": 3000,
+            "l": 0
+          },
+          "sort": 1000
+        },
+        {
+          "remoteId": "64db71c47dc700a53aebfd5c",
+          "nameAr": "تشوكلت كروسان",
+          "nameEn": "Chocolate Croissant",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1716631528505_44f995f2-d22f-4b44-a673-09f7db4a4ac3.png",
+          "prices": {
+            "s": 0,
+            "m": 3000,
+            "l": 0
+          },
+          "sort": 1001
+        },
+        {
+          "remoteId": "64db751c7dc700a53aebfd71",
+          "nameAr": "سينامون رول",
+          "nameEn": "Cinnamon Roll",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1716631855158_1d139436-fafe-45f8-8a36-db396ac0ed8b.png",
+          "prices": {
+            "s": 0,
+            "m": 3500,
+            "l": 0
+          },
+          "sort": 1003
+        },
+        {
+          "remoteId": "69d21b6d866b9d720be5e695",
+          "nameAr": "خوخ دانش",
+          "nameEn": "peach danish",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1775377261017_bb1b11a9-28f4-40d6-a0e1-8b974d75f5c9.png",
+          "prices": {
+            "s": 0,
+            "m": 4000,
+            "l": 0
+          },
+          "sort": 1007
+        },
+        {
+          "remoteId": "64db76357dc700a53aebfd9e",
+          "nameAr": "مارغريتا ميني بيتزا",
+          "nameEn": "Margarita mini pizza",
+          "descAr": "0",
+          "descEn": "0",
+          "image": "https://grindersiq.iraqsapp.com/1740654879732_328f5ee6-96ad-4c1e-8371-05ef979e744b.png",
+          "prices": {
+            "s": 0,
+            "m": 2500,
+            "l": 0
+          },
+          "sort": 1008
+        },
+        {
+          "remoteId": "64db76a47dc700a53aebfda9",
+          "nameAr": "ببروني ميني بيتزا",
+          "nameEn": "Pepperoni mini pizza",
+          "descAr": "0",
+          "descEn": "0",
+          "image": "https://grindersiq.iraqsapp.com/1740654907149_f21eef6f-5562-4238-9b2a-82ed6df5238a.png",
+          "prices": {
+            "s": 0,
+            "m": 2500,
+            "l": 0
+          },
+          "sort": 1010
+        },
+        {
+          "remoteId": "664233ac5d27f25d3c2be305",
+          "nameAr": "اكلير كلاسك",
+          "nameEn": "Classic Eclair",
+          "descAr": "0",
+          "descEn": "0",
+          "image": "https://grindersiq.iraqsapp.com/1715614636623_64f49d6a-fbcf-4301-8ae5-5fd219264b40.png",
+          "prices": {
+            "s": 0,
+            "m": 3500,
+            "l": 0
+          },
+          "sort": 2014
+        }
+      ]
+    },
+    {
+      "remoteId": "64d8ec99d63073130a97c80c",
+      "nameAr": "كيك",
+      "nameEn": "Cake",
+      "image": "https://grindersiq.iraqsapp.com/1769076584352_a4c5a42c-a968-4de9-8430-a573b65ed2fe.png",
+      "sort": 13,
+      "products": [
+        {
+          "remoteId": "69d0936c866b9d720be4ce58",
+          "nameAr": "براوني",
+          "nameEn": "browni",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1775276907861_e029ed19-a2f6-40c7-9fc7-33c061911b06.png",
+          "prices": {
+            "s": 0,
+            "m": 5000,
+            "l": 0
+          },
+          "sort": 0
+        },
+        {
+          "remoteId": "69f856ed102d28897e28c7b5",
+          "nameAr": "إنجليش كيك",
+          "nameEn": "English cake",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1777882861796_e7759d41-b2f0-4feb-919d-5a602b314630.png",
+          "prices": {
+            "s": 0,
+            "m": 2000,
+            "l": 0
+          },
+          "sort": 0
+        },
+        {
+          "remoteId": "67bda26d44734b908efc612e",
+          "nameAr": "بلوبيري جيزكيك",
+          "nameEn": "Blueberry Cheesecake",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1740481133572_cab2cda5-8104-4404-9c45-66f86b7dfbdf.png",
+          "prices": {
+            "s": 0,
+            "m": 5000,
+            "l": 0
+          },
+          "sort": 1
+        },
+        {
+          "remoteId": "692b3eb0576363d90dfe32fa",
+          "nameAr": "والنات كاروت كيك",
+          "nameEn": "Walnut carrot cake",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1764441776653_84224ab6-fad6-4ff0-a9e1-58b0d242acf1.png",
+          "prices": {
+            "s": 0,
+            "m": 4000,
+            "l": 0
+          },
+          "sort": 1
+        },
+        {
+          "remoteId": "69d219e2866b9d720be5e438",
+          "nameAr": "تشوكلت تشيز كيك",
+          "nameEn": "chocolate cheesecake",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1775376866629_ab375ef8-464c-47a0-8200-9d0d155b9146.png",
+          "prices": {
+            "s": 0,
+            "m": 5000,
+            "l": 0
+          },
+          "sort": 3
+        },
+        {
+          "remoteId": "69f85739102d28897e28c869",
+          "nameAr": "بوب كيك",
+          "nameEn": "pop cake",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1777882937318_77163db1-56a7-47df-8d63-91c0ddf5d681.png",
+          "prices": {
+            "s": 0,
+            "m": 2000,
+            "l": 0
+          },
+          "sort": 12
+        },
+        {
+          "remoteId": "64db7cc17dc700a53aebfe41",
+          "nameAr": "سان سيباستيان",
+          "nameEn": "San sebastian",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1769356999612_b4882cce-7263-45d3-927f-3fe0200b9656.png",
+          "prices": {
+            "s": 0,
+            "m": 5000,
+            "l": 0
+          },
+          "sort": 2003
+        },
+        {
+          "remoteId": "64db7b537dc700a53aebfe20",
+          "nameAr": "جيرمن كيك",
+          "nameEn": "German Cake",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1716632457982_3917b626-3fbe-49fe-bf69-56e9eea68172.png",
+          "prices": {
+            "s": 0,
+            "m": 4000,
+            "l": 0
+          },
+          "sort": 2005
+        },
+        {
+          "remoteId": "67bda0e744734b908efc602c",
+          "nameAr": "كيك البستاشيو بالحليب",
+          "nameEn": "Milk Pistachio Cake",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1740480743164_9186cf25-efa7-40ea-9bba-e6d803e56ebd.png",
+          "prices": {
+            "s": 0,
+            "m": 4000,
+            "l": 0
+          },
+          "sort": 2010
+        },
+        {
+          "remoteId": "67e883532bdab609d36afbaf",
+          "nameAr": "كراميل ميلك كيك",
+          "nameEn": "caramel milk cake",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1744329763458_e502ff0d-7e11-410e-a2a0-0b6decbbb021.png",
+          "prices": {
+            "s": 0,
+            "m": 4000,
+            "l": 0
+          },
+          "sort": 2010
+        },
+        {
+          "remoteId": "699ad9e4866b9d720bca67fa",
+          "nameAr": "مافن بالشوكولا",
+          "nameEn": "Chocolate Muffin",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1771756004653_06318d82-734f-45c1-bf2c-a2db8e70d60d.png",
+          "prices": {
+            "s": 0,
+            "m": 3000,
+            "l": 0
+          },
+          "sort": 2011
+        },
+        {
+          "remoteId": "699adc73866b9d720bca6885",
+          "nameAr": "مافن بالتوت الازرق",
+          "nameEn": "Blueberry Muffin",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1771756659601_f484c35e-762b-454c-8964-211848f6e173.png",
+          "prices": {
+            "s": 0,
+            "m": 3000,
+            "l": 0
+          },
+          "sort": 2012
+        }
+      ]
+    },
+    {
+      "remoteId": "64f0cdb369349cca472b1bea",
+      "nameAr": "منتجاتنا",
+      "nameEn": "Our Products",
+      "image": "https://grindersiq.iraqsapp.com/1769076602044_657d2e96-2cff-4f0d-94e4-4abc1e0a75a2.png",
+      "sort": 14,
+      "products": [
+        {
+          "remoteId": "69b7c3de866b9d720bd5e760",
+          "nameAr": "Turkish Blend",
+          "nameEn": "Turkish Blend",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1773650910455_313046de-64b1-492f-b4c0-d3d92f4bfd0b.png",
+          "prices": {
+            "s": 0,
+            "m": 7000,
+            "l": 0
+          },
+          "sort": -1
+        },
+        {
+          "remoteId": "6968b49a4e2081ea7effd517",
+          "nameAr": "STAINLESS STEEL TUMBLER 360 ML",
+          "nameEn": "STAINLESS STEEL TUMBLER 360 ML",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1768469658001_c4933e94-6aff-424b-b7ff-64d51790d6ab.png",
+          "prices": {
+            "s": 0,
+            "m": 18000,
+            "l": 0
+          },
+          "sort": 1
+        },
+        {
+          "remoteId": "6968b4d84e2081ea7effd52e",
+          "nameAr": "STAINLESS STEEL TUMBLER 360 ML",
+          "nameEn": "STAINLESS STEEL TUMBLER 360 ML",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1768469720609_156f4ca0-e2f6-40e8-9bb5-a039e6d9178a.png",
+          "prices": {
+            "s": 0,
+            "m": 18000,
+            "l": 0
+          },
+          "sort": 1
+        },
+        {
+          "remoteId": "6968b57e4e2081ea7effd557",
+          "nameAr": "STAINLESS STEEL TUMBLER 360 ML",
+          "nameEn": "STAINLESS STEEL TUMBLER 360 ML",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1768469886442_3e92b76a-515a-461d-8809-168ae3b4a07e.png",
+          "prices": {
+            "s": 0,
+            "m": 18000,
+            "l": 0
+          },
+          "sort": 2
+        },
+        {
+          "remoteId": "6968b6354e2081ea7effd5aa",
+          "nameAr": "GRINDERS SIPPY CUPS 500 ML",
+          "nameEn": "GRINDERS SIPPY CUPS 500 ML",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1768470068424_4b279d92-a165-4e76-bb7d-e21d5f787653.png",
+          "prices": {
+            "s": 0,
+            "m": 15000,
+            "l": 0
+          },
+          "sort": 3
+        },
+        {
+          "remoteId": "6968b6704e2081ea7effd5ce",
+          "nameAr": "GRINDERS SIPPY CUPS 500 ML",
+          "nameEn": "GRINDERS SIPPY CUPS 500 ML",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1768470128313_d9751dbf-6324-4e4c-acc5-d32158f3f796.png",
+          "prices": {
+            "s": 0,
+            "m": 15000,
+            "l": 0
+          },
+          "sort": 4
+        },
+        {
+          "remoteId": "6968b6a04e2081ea7effd5f0",
+          "nameAr": "GRINDERS SIPPY CUPS 500 ML",
+          "nameEn": "GRINDERS SIPPY CUPS 500 ML",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1768470176319_3acfea27-fc66-40fe-8fd9-0f27f6d66f3c.png",
+          "prices": {
+            "s": 0,
+            "m": 15000,
+            "l": 0
+          },
+          "sort": 5
+        },
+        {
+          "remoteId": "6968b6ed4e2081ea7effd61a",
+          "nameAr": "GRINDERS SPORT BOTTLE 600 ML",
+          "nameEn": "GRINDERS SPORT BOTTLE 600 ML",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1768470253036_3f20d837-a2ee-4a86-a6a2-0f90ec3742d7.png",
+          "prices": {
+            "s": 0,
+            "m": 25000,
+            "l": 0
+          },
+          "sort": 6
+        },
+        {
+          "remoteId": "6968b7aa4e2081ea7effd6a9",
+          "nameAr": "CERAMIC MERCH 12 OZ WHITE",
+          "nameEn": "CERAMIC MERCH 12 OZ WHITE",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1768470441766_9d9c2981-1aef-4f61-81b5-f5ba3381f420.png",
+          "prices": {
+            "s": 0,
+            "m": 20000,
+            "l": 0
+          },
+          "sort": 7
+        },
+        {
+          "remoteId": "6968b7dc4e2081ea7effd6be",
+          "nameAr": "CERAMIC MERCH 15.2 OZ COFFEE",
+          "nameEn": "CERAMIC MERCH 15.2 OZ COFFEE",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1768470491705_32365487-3154-4aff-bda8-eeb1fbbb4d4a.png",
+          "prices": {
+            "s": 0,
+            "m": 18000,
+            "l": 0
+          },
+          "sort": 8
+        },
+        {
+          "remoteId": "6968b8344e2081ea7effd6e3",
+          "nameAr": "CERAMIC MERCH 15.2 OZ BLUE",
+          "nameEn": "CERAMIC MERCH 15.2 OZ BLUE",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1768470580710_c90a877f-bc23-45e1-b073-6ab0748486ac.png",
+          "prices": {
+            "s": 0,
+            "m": 18000,
+            "l": 0
+          },
+          "sort": 9
+        },
+        {
+          "remoteId": "6968b8924e2081ea7effd702",
+          "nameAr": "CERAMIC MERCH 4OZ",
+          "nameEn": "CERAMIC MERCH 4OZ",
+          "descAr": null,
+          "descEn": null,
+          "image": "https://grindersiq.iraqsapp.com/1768470673997_392c5e99-980a-4b35-ab2a-67f9d5aa2823.png",
+          "prices": {
+            "s": 0,
+            "m": 12000,
+            "l": 0
+          },
+          "sort": 10
+        },
+        {
+          "remoteId": "696cabe4866b9d720bad54ee",
+          "nameAr": "Tote Bag",
+          "nameEn": "Tote Bag",
+          "descAr": ".",
+          "descEn": ".",
+          "image": "https://grindersiq.iraqsapp.com/1768729572460_e30ade78-798b-4608-9698-5da44114f9db.png",
+          "prices": {
+            "s": 0,
+            "m": 0,
+            "l": 12000
+          },
+          "sort": 11
+        },
+        {
+          "remoteId": "696caca2866b9d720bad5556",
+          "nameAr": "Tote Bag",
+          "nameEn": "Tote Bag",
+          "descAr": ".",
+          "descEn": ".",
+          "image": "https://grindersiq.iraqsapp.com/1768729761981_edc28c5e-9078-4c9e-a20d-c827b4c6695d.png",
+          "prices": {
+            "s": 10000,
+            "m": 0,
+            "l": 0
+          },
+          "sort": 12
+        }
+      ]
+    }
+  ]
+}

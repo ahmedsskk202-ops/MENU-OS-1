@@ -1,0 +1,259 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* THE GRINDERS COFFEE HOUSE — brand palette.
+   Dark is the primary surface (a warm near-black, not a cool grey: the brand runs on
+   espresso-brown neutrals), with a restrained warm gold as the single accent and a
+   natural leaf-green used sparingly for plant/fresh signalling.
+   The live Grinders app ships `--color: #6e1f00` (espresso brown) as its own brand
+   colour, which is where the warm hue family here comes from. */
+:root {
+  --background: 36 33% 97%;
+  --foreground: 24 26% 10%;
+  --surface: 36 26% 94%;
+  --surface-raised: 0 0% 100%;
+  --border: 32 16% 84%;
+  --input: 32 16% 84%;
+  --ring: 34 62% 34%;
+  --primary: 24 26% 10%;
+  --primary-foreground: 36 33% 97%;
+  --accent: 40 68% 52%;
+  --accent-foreground: 24 40% 8%;
+  --accent-ink: 34 62% 30%;
+  --leaf: 145 32% 28%;
+  --muted: 34 20% 92%;
+  --muted-foreground: 28 10% 40%;
+  --success: 145 46% 26%;
+  --warning: 30 78% 34%;
+  --danger: 4 68% 42%;
+}
+
+/* Dark theme — the Grinders default. Explicit data-theme="dark" always wins;
+   :root:not([data-theme="light"]) makes dark the fallback when nothing else applies. */
+:root[data-theme="dark"],
+:root:not([data-theme="light"]) {
+  --background: 24 22% 5%;
+  --foreground: 36 28% 94%;
+  --surface: 24 17% 8%;
+  --surface-raised: 26 15% 11%;
+  --border: 28 12% 17%;
+  --input: 28 12% 17%;
+  --ring: 40 68% 52%;
+  --primary: 40 68% 52%;
+  --primary-foreground: 24 40% 8%;
+  --accent: 40 68% 52%;
+  --accent-foreground: 24 40% 8%;
+  --accent-ink: 40 68% 56%;
+  --leaf: 145 34% 52%;
+  --muted: 26 13% 13%;
+  --muted-foreground: 30 8% 62%;
+  --success: 145 44% 50%;
+  --warning: 36 82% 58%;
+  --danger: 4 78% 64%;
+}
+
+/* There is deliberately NO prefers-color-scheme block here. The Grinders brand is a
+   dark, warm near-black with gold — that IS the identity, not a user preference —
+   so the app opens dark on every device regardless of OS setting. The theme toggle
+   in the header still switches to light for anyone who wants it, and that explicit
+   choice is remembered (see THEME_INIT_SCRIPT in app/layout.tsx). */
+
+* {
+  border-color: hsl(var(--border));
+}
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-feature-settings: "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+  /* Only ever animates a value that already changed after the fact (a user's toggle
+     click) — the theme is set synchronously before first paint (see the blocking
+     script in app/layout.tsx), so this never runs during the initial page load. */
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.font-arabic,
+.font-arabic .font-display {
+  font-family: var(--font-arabic), sans-serif;
+}
+
+.glass-surface {
+  background: hsl(var(--surface) / 0.72);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+}
+
+.premium-scroll::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+.premium-scroll::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 999px;
+}
+
+.shimmer-skeleton {
+  background: linear-gradient(
+    90deg,
+    hsl(var(--muted)) 25%,
+    hsl(var(--surface-raised)) 37%,
+    hsl(var(--muted)) 63%
+  );
+  background-size: 400% 100%;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   RECEIPT PRINTING
+
+   Plain browser printing: no PDF library, no thermal device driver. Every
+   ReceiptPrint on the page renders its sheet into a `.receipt-print-sheet`
+   wrapper, which is invisible on screen and becomes the only thing on paper.
+   ───────────────────────────────────────────────────────────────────────── */
+
+.receipt-print-sheet {
+  display: none;
+}
+
+@media print {
+  /* Only the receipt sheets survive. Hiding the app shell by ancestor would
+     break the sheets themselves (they live inside it), so hide each direct
+     body child instead. */
+  body > *:not(.receipt-print-root) {
+    display: none !important;
+  }
+
+  .receipt-print-sheet {
+    display: block !important;
+  }
+
+  /* An 80mm thermal roll is the realistic target for a cafe counter, so the
+     sheet is sized for one. Wider paper still prints — the browser centres it. */
+  @page {
+    size: 80mm auto;
+    margin: 4mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .receipt-sheet {
+    width: 100%;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 10pt;
+    line-height: 1.35;
+    color: #000;
+    background: #fff;
+  }
+
+  .receipt-head,
+  .receipt-meta,
+  .receipt-foot {
+    text-align: center;
+  }
+  .receipt-brand {
+    font-size: 13pt;
+    font-weight: 700;
+    margin: 0 0 2pt;
+  }
+  .receipt-line {
+    margin: 0;
+    font-size: 9pt;
+  }
+  .receipt-line-strong {
+    margin: 0;
+    font-size: 10pt;
+    font-weight: 700;
+  }
+  .receipt-meta {
+    margin: 4pt 0;
+    border-block: 1px dashed #000;
+    padding-block: 3pt;
+  }
+
+  /* The table number is the point of the slip — boxed, centred, and the
+     second-largest thing on the page after the brand name. */
+  .receipt-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #000;
+    padding: 4pt 0 3pt;
+    margin: 4pt 0;
+  }
+  .receipt-table-label {
+    font-size: 8pt;
+    letter-spacing: 0.2em;
+  }
+  .receipt-table-number {
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .receipt-table-items {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 4pt 0;
+  }
+  .receipt-table-items td {
+    padding: 1pt 0;
+    vertical-align: top;
+  }
+  .receipt-item-name {
+    font-size: 9pt;
+  }
+  .receipt-item-amount {
+    text-align: right;
+    white-space: nowrap;
+    padding-inline-start: 6pt !important;
+  }
+
+  .receipt-totals {
+    border-top: 1px solid #000;
+    padding-top: 3pt;
+  }
+  .receipt-total,
+  .receipt-total-strong {
+    display: flex;
+    justify-content: space-between;
+    font-size: 9.5pt;
+  }
+  .receipt-total-strong {
+    font-weight: 700;
+    font-size: 11pt;
+  }
+
+  .receipt-discounts,
+  .receipt-payments {
+    margin-top: 3pt;
+    border-top: 1px dashed #000;
+    padding-top: 3pt;
+  }
+  .receipt-note {
+    margin-top: 4pt;
+    font-size: 9pt;
+  }
+  .receipt-foot {
+    margin-top: 6pt;
+    border-top: 1px dashed #000;
+    padding-top: 3pt;
+    font-size: 9pt;
+  }
+}
+
+/* The menu search draws its own clear (×) button; hide the browser's built-in one so
+   guests do not see two. */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Menu OS License</title>
+<style>
+  :root { --bg:#0f0d0b; --card:#1a1714; --line:#2e2923; --text:#f3eee7; --muted:#a39a8e; --accent:#e0a93b; --ok:#4caf7a; --bad:#e25b5b; }
+  * { box-sizing: border-box; }
+  body { margin:0; min-height:100vh; background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif; display:flex; align-items:center; justify-content:center; padding:24px 16px; }
+  main { width:100%; max-width:460px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:24px; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  .ar { direction:rtl; text-align:right; color:var(--muted); font-size:14px; margin:0 0 18px; }
+  .status { border-radius:14px; padding:14px 16px; margin-bottom:18px; border:1px solid var(--line); font-size:14px; line-height:1.5; }
+  .status.ok { border-color:rgba(76,175,122,.4); background:rgba(76,175,122,.1); }
+  .status.bad { border-color:rgba(226,91,91,.4); background:rgba(226,91,91,.1); }
+  .status strong { display:block; font-size:15px; margin-bottom:2px; }
+  .muted { color:var(--muted); font-size:13px; }
+  label { display:block; font-size:13px; font-weight:600; margin:0 0 6px; }
+  textarea { width:100%; min-height:110px; resize:vertical; background:#12100e; color:var(--text); border:1px solid var(--line); border-radius:12px; padding:10px 12px; font:12px/1.4 ui-monospace,Consolas,monospace; }
+  .row { display:flex; gap:8px; margin-top:12px; }
+  button, .file { flex:1; height:46px; border-radius:12px; border:1px solid var(--line); background:transparent; color:var(--text); font:600 14px system-ui,sans-serif; cursor:pointer; display:flex; align-items:center; justify-content:center; }
+  button.primary { background:var(--accent); color:#1a1307; border-color:var(--accent); }
+  button:disabled { opacity:.5; cursor:default; }
+  .file input { display:none; }
+  .msg { margin-top:12px; font-size:13px; min-height:18px; }
+  .msg.bad { color:var(--bad); } .msg.ok { color:var(--ok); }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>Menu OS License</h1>
+    <p class="ar">ترخيص Menu OS</p>
+
+    <div id="status" class="status">Checking…</div>
+
+    <form id="form">
+      <label for="token">License key / مفتاح الترخيص</label>
+      <textarea id="token" placeholder="Paste the license key, or open the .lic file" spellcheck="false" autocomplete="off"></textarea>
+      <div class="row">
+        <label class="file">Open .lic file<input id="file" type="file" accept=".lic,.txt,text/plain"></label>
+        <button class="primary" id="activate" type="submit">Activate / تفعيل</button>
+      </div>
+      <div id="msg" class="msg" role="alert"></div>
+    </form>
+  </div>
+</main>
+<script>
+(function () {
+  var REASONS = {
+    NOT_ACTIVATED: ["This system is not activated yet.", "النظام غير مفعّل بعد."],
+    INVALID: ["The stored license is not valid for Menu OS.", "الترخيص المحفوظ غير صالح."],
+    NOT_VERIFIED: ["The license could not be confirmed with the license server.", "تعذّر تأكيد الترخيص مع خادم التراخيص."],
+    REVOKED: ["This license has been revoked.", "تم إلغاء هذا الترخيص."],
+    EXPIRED: ["This license has expired.", "انتهت صلاحية هذا الترخيص."],
+    OFFLINE_TOO_LONG: ["The license server has not been reachable for too long. Connect to the internet.", "لم يتم الاتصال بخادم التراخيص لفترة طويلة. يرجى الاتصال بالإنترنت."],
+    CLOCK: ["The computer's date/time is wrong. Correct it and reload.", "تاريخ/وقت الجهاز غير صحيح. صحّحه ثم أعد التحميل."]
+  };
+  var $ = function (id) { return document.getElementById(id); };
+  function esc(s) { var d = document.createElement("div"); d.textContent = s == null ? "" : String(s); return d.innerHTML; }
+  function day(v) { try { return new Date(v).toLocaleDateString(); } catch (e) { return v; } }
+
+  function render(s) {
+    var box = $("status");
+    var lic = s.license || {};
+    if (s.licensed) {
+      box.className = "status ok";
+      box.innerHTML =
+        "<strong>Licensed to " + esc(lic.client_id) + "</strong>" +
+        (lic.lifetime ? "Lifetime license — never expires · ترخيص مدى الحياة" : "Valid until " + esc(day(lic.expires_at)) + " (" + esc(lic.remaining_days) + " days left)") +
+        '<div class="muted">Last confirmed ' + esc(day(s.last_checked_at || lic.checked_at)) + '. <a href="/">Open Menu OS</a></div>';
+    } else {
+      var r = REASONS[s.reason] || [s.reason, ""];
+      box.className = "status bad";
+      box.innerHTML = "<strong>" + esc(r[0]) + "</strong>" + '<div class="ar" style="margin:0">' + esc(r[1]) + "</div>" +
+        (lic.client_id ? '<div class="muted">License: ' + esc(lic.client_id) + "</div>" : "") +
+        (!s.server_configured ? '<div class="muted">The license server address is not configured on this computer (MENU_OS_LICENSE_SERVER).</div>' : "") +
+        (s.last_error ? '<div class="muted">' + esc(s.last_error) + "</div>" : "");
+    }
+  }
+
+  function load() {
+    fetch("/__license/status", { cache: "no-store" }).then(function (r) { return r.json(); }).then(render).catch(function () {
+      $("status").textContent = "Could not read the license status.";
+    });
+  }
+
+  $("file").addEventListener("change", function (e) {
+    var f = e.target.files && e.target.files[0];
+    if (!f) return;
+    f.text().then(function (t) { $("token").value = t.trim(); });
+  });
+
+  $("form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var token = $("token").value.trim();
+    var msg = $("msg");
+    if (!token) { msg.className = "msg bad"; msg.textContent = "Paste a license key first."; return; }
+    var btn = $("activate");
+    btn.disabled = true;
+    msg.className = "msg"; msg.textContent = "Checking with the license server…";
+    fetch("/__license/activate", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ token: token }) })
+      .then(function (r) { return r.json(); })
+      .then(function (res) {
+        if (res.ok) {
+          msg.className = "msg ok"; msg.textContent = "Activated. Opening Menu OS… · تم التفعيل";
+          render(res.status);
+          $("token").value = "";
+          setTimeout(function () { location.href = "/"; }, 1200);
+        } else {
+          msg.className = "msg bad"; msg.textContent = res.error || "Activation failed.";
+        }
+      })
+      .catch(function () { msg.className = "msg bad"; msg.textContent = "Could not reach this server."; })
+      .finally(function () { btn.disabled = false; });
+  });
+
+  load();
+})();
+</script>
+</body>
+</html>

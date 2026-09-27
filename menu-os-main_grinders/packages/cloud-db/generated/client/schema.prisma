@@ -1,0 +1,235 @@
+// Menu OS Cloud — the head-office aggregation database.
+// Deliberately NOT a mirror of the local operational schema: this only holds what
+// HQ reporting and the sync ledger actually need. A branch never depends on this
+// database to operate (see docs/OFFLINE_ARCHITECTURE.md).
+
+// Explicit, distinct output — see packages/db/prisma/schema.prisma for why.
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/client"
+}
+
+// SQLite, same as the branch database — HQ runs next to the branches here, not in a
+// managed Postgres cluster, and every column below is either a plain string, a
+// DateTime, or a Decimal. There are no enums, no Json columns and no scalar lists in
+// this schema, so nothing needs the encode/decode helpers the operational schema uses.
+datasource db {
+  provider = "sqlite"
+  url      = env("CLOUD_DATABASE_URL")
+}
+
+// Per-branch credential for authenticating sync pushes from a branch's local runtime.
+model CloudBranch {
+  id         String   @id // matches the local Branch.id
+  tenantId   String
+  name       String
+  brandName  String
+  apiKeyHash String   @unique
+  createdAt  DateTime @default(now())
+}
+
+// The idempotency ledger. One row per OutboxEvent id ever successfully applied.
+// Ingestion is INSERT ... ON CONFLICT (id) DO NOTHING — this table is what makes
+// re-sending an already-applied batch a safe no-op.
+model SyncedEvent {
+  id            String   @id // the OutboxEvent.id from the branch
+  branchId      String
+  aggregateType String
+  aggregateId   String
+  eventType     String
+  occurredAt    DateTime
+  appliedAt     DateTime @default(now())
+
+  @@index([branchId])
+}
+
+model CloudOrder {
+  id              String   @id // matches the local Order.id
+  tenantId        String
+  branchId        String
+  type            String
+  status          String
+  subtotal        Decimal
+  discountTotal   Decimal
+  taxTotal        Decimal
+  serviceFeeTotal Decimal  @default(0)
+  total           Decimal
+  currency        String
+  occurredAt      DateTime // timestamp of the most recent applied event for this order
+  createdAt       DateTime
+
+  @@index([branchId])
+}
+
+model CloudPayment {
+  id         String   @id
+  orderId    String
+  branchId   String
+  method     String
+  amount     Decimal
+  tipAmount  Decimal  @default(0)
+  currency   String
+  status     String
+  occurredAt DateTime
+  shiftId    String?
+
+  @@index([branchId])
+}
+
+model CloudWaiterRequest {
+  id          String    @id
+  branchId    String
+  type        String
+  status      String
+  createdAt   DateTime
+  completedAt DateTime?
+  occurredAt  DateTime
+
+  @@index([branchId])
+}
+
+// Last-write-wins projection, keyed by (branchId, productId) — see §5 of the
+// architecture doc for why this is the one entity class that needs a conflict policy.
+model CloudProductAvailability {
+  id         String   @id // `${branchId}:${productId}`
+  branchId   String
+  productId  String
+  status     String
+  occurredAt DateTime // the event's occurredAt — an older event never overwrites a newer one
+
+  @@index([branchId])
+}
+
+model CloudGameSession {
+  id          String   @id
+  branchId    String
+  status      String
+  playerCount Int
+  occurredAt  DateTime
+
+  @@index([branchId])
+}
+
+model CloudRefund {
+  id         String   @id
+  paymentId  String
+  branchId   String
+  amount     Decimal
+  status     String
+  occurredAt DateTime
+
+  @@index([branchId])
+}
+
+// A shift's closing summary only — HQ needs the reconciliation result, not every
+// intermediate cash movement (those stay local; see docs/OFFLINE_ARCHITECTURE.md).
+model CloudShift {
+  id             String    @id
+  branchId       String
+  status         String
+  openedAt       DateTime
+  closedAt       DateTime?
+  openingCash    Decimal
+  expectedCash   Decimal?
+  actualCash     Decimal?
+  variance       Decimal?
+  varianceReason String?
+  occurredAt     DateTime
+
+  @@index([branchId])
+}
+
+model CloudExpense {
+  id         String   @id
+  branchId   String
+  shiftId    String?
+  category   String
+  amount     Decimal
+  occurredAt DateTime
+
+  @@index([branchId])
+}
+
+model CloudCashMovement {
+  id         String   @id
+  branchId   String
+  shiftId    String
+  type       String
+  amount     Decimal
+  occurredAt DateTime
+
+  @@index([branchId])
+}
+
+model CloudDeliveryOrder {
+  id          String    @id // matches the local DeliveryOrder.id
+  orderId     String
+  branchId    String
+  status      String
+  zoneId      String?
+  deliveryFee Decimal
+  driverId    String?
+  deliveredAt DateTime?
+  occurredAt  DateTime
+
+  @@index([branchId])
+}
+
+model CloudReservation {
+  id              String   @id // matches the local Reservation.id
+  branchId        String
+  tableId         String?
+  guestName       String
+  guestPhone      String
+  partySize       Int
+  reservedFor     DateTime
+  durationMinutes Int
+  status          String
+  occurredAt      DateTime
+
+  @@index([branchId])
+  @@index([tableId, reservedFor])
+}
+
+model CloudIngredient {
+  id                String   @id // matches the local Ingredient.id
+  brandId           String
+  name              String
+  unit              String
+  currentStock      Decimal?
+  lowStockThreshold Decimal?
+  occurredAt        DateTime
+
+  @@index([brandId])
+}
+
+// One row per (recipeId, ingredientId) line, mirroring the local RecipeIngredient —
+// HQ can see food cost composition per product without needing the full local schema.
+model CloudRecipeLine {
+  id                  String   @id // matches the local RecipeIngredient.id
+  productId           String
+  ingredientId        String
+  quantity            Decimal
+  unit                String
+  costPerUnitSnapshot Decimal?
+  occurredAt          DateTime
+
+  @@index([productId])
+}
+
+// Loyalty points movements, mirrored per brand. Append-only: a transaction is never
+// edited locally, so there is nothing to last-write-win — the id makes it idempotent.
+model CloudLoyaltyTransaction {
+  id         String   @id // matches the local LoyaltyTransaction.id
+  branchId   String
+  brandId    String
+  accountId  String
+  customerId String
+  orderId    String?
+  type       String
+  points     Int
+  newBalance Int
+  occurredAt DateTime
+
+  @@index([brandId])
+}

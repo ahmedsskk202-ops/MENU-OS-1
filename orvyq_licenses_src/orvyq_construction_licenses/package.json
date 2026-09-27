@@ -1,0 +1,17 @@
+{
+  "name": "construction-os-license",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Construction OS License - license generation and verification panel (Netlify)",
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  },
+  "scripts": {
+    "smoke": "node scripts/smoke-test.js",
+    "test": "node scripts/e2e-test.js",
+    "test:all": "node scripts/smoke-test.js && node scripts/e2e-test.js"
+  },
+  "devDependencies": {
+    "netlify-cli": "^27.8.0"
+  }
+}

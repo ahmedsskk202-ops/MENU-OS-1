@@ -1,0 +1,23 @@
+# Dependencies / build output
+node_modules/
+.next/
+dist/
+build/
+.turbo/
+*.tsbuildinfo
+.netlify/
+
+# Secrets & local data (never committed)
+.env
+.env.*
+!.env.example
+*.db
+*.db-journal
+**/.license/
+*.pem
+*.key
+
+# Misc
+.git-nested-backup/
+.DS_Store
+npm-debug.log*

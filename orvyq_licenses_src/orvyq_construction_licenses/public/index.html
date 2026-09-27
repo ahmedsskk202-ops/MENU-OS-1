@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="hosting-provider" content="Netlify" />
+  <title>Construction OS License</title>
+  <meta name="description" content="Construction OS License - generation and verification" />
+  <link rel="stylesheet" href="/styles.css?v=3" />
+</head>
+<body>
+  <div class="login-container" id="login-view">
+    <div class="login-box">
+      <h1>Construction OS License</h1>
+      <p>Sign in to your admin account</p>
+      <div class="error-message" id="login-error" hidden></div>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input id="username" type="text" placeholder="Enter username" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Enter password" required />
+        </div>
+        <button type="submit" class="btn btn-primary" id="login-btn">Sign In</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="dashboard" id="dashboard-view" hidden>
+    <aside class="sidebar">
+      <h2>Construction OS License</h2>
+      <ul class="sidebar-nav">
+        <li data-view="licenses" class="active">Issued Licenses</li>
+        <li data-view="verify">Verify License</li>
+      </ul>
+      <div class="sidebar-footer">
+        <p class="signed-in">Signed in as <strong id="signed-user">-</strong></p>
+        <button class="btn btn-secondary" id="signout-btn">Sign Out</button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <div class="header">
+        <h1 id="page-title">Issued Licenses</h1>
+        <button class="btn btn-primary" id="open-generate-btn" style="width:auto">Generate License</button>
+      </div>
+
+      <div class="card" id="licenses-view">
+        <h2>All Licenses (<span id="license-count">0</span>)</h2>
+        <div class="loading" id="licenses-loading">Loading licenses...</div>
+        <div class="empty-state" id="licenses-empty" hidden>
+          <p>No licenses issued yet.</p>
+          <p>Click "Generate License" to create your first license.</p>
+        </div>
+        <div class="table-container" id="licenses-table-wrap" hidden>
+          <table>
+            <thead>
+              <tr>
+                <th>Client</th>
+                <th>Plan</th>
+                <th>Status</th>
+                <th>Expires</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="licenses-table"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card" id="verify-view" hidden>
+        <h2>Verify a License Token</h2>
+        <p class="helper-text">Paste a license token below to check its validity and expiration.</p>
+        <div class="form-group">
+          <label for="verify-token">License Token</label>
+          <textarea id="verify-token" placeholder="Paste your license token here..." rows="4"></textarea>
+        </div>
+        <button class="btn btn-primary" id="verify-btn" style="width:auto">Verify License</button>
+        <div id="verify-result" class="verify-result" hidden></div>
+      </div>
+    </main>
+  </div>
+
+  <div class="modal-overlay" id="generate-modal" hidden>
+    <div class="modal">
+      <div id="generate-form-wrap">
+        <h2>Generate New License</h2>
+        <p class="helper-text">Construction OS License</p>
+        <form id="generate-form">
+          <div class="form-group">
+            <label for="gen-client">Client Name / ID</label>
+            <input id="gen-client" type="text" placeholder="e.g., BuildCo, SITE-001" required />
+          </div>
+          <div class="form-group">
+            <label for="gen-duration">Expiration Period</label>
+            <select id="gen-duration">
+              <option value="7">7 days</option>
+              <option value="30" selected>30 days</option>
+              <option value="90">90 days</option>
+              <option value="180">180 days</option>
+              <option value="365">1 year</option>
+              <option value="custom">Custom date</option>
+            </select>
+          </div>
+          <div class="form-group" id="custom-date-wrap" hidden>
+            <label for="gen-date">Custom Expiry Date</label>
+            <input id="gen-date" type="date" />
+          </div>
+          <div class="form-row">
+            <button type="button" class="btn btn-secondary" id="close-generate-btn">Cancel</button>
+            <button type="submit" class="btn btn-success" id="generate-btn">Generate</button>
+          </div>
+        </form>
+      </div>
+      <div id="generated-wrap" hidden>
+        <h2>License Generated!</h2>
+        <p class="helper-text">Copy the token below or download the .lic file.</p>
+        <div class="token-display" id="gen-token"></div>
+        <div class="form-row">
+          <button class="btn btn-primary" id="copy-token-btn">Copy Token</button>
+          <button class="btn btn-success" id="download-lic-btn">Download .lic</button>
+        </div>
+        <button class="btn btn-secondary" id="close-generated-btn" style="width:100%;margin-top:10px">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" hidden></div>
+
+  <script src="/app.js?v=3"></script>
+</body>
+</html>

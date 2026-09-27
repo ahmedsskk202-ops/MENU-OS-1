@@ -1,0 +1,14 @@
+{
+  "name": "@menu-os/cloud",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@menu-os/cloud-db": "*",
+    "@prisma/client": "^5.20.0",
+    "dotenv": "^16.4.5"
+  }
+}

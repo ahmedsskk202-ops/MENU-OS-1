@@ -1,0 +1,13 @@
+{
+  "name": "The Grinders Coffee House",
+  "short_name": "The Grinders",
+  "description": "Scan, order, play, and pay at The Grinders Coffee House in Baghdad.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#13131A",
+  "theme_color": "#13131A",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
